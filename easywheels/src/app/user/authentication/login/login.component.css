@@ -1,0 +1,58 @@
+.fb
+{
+    background-color: #3b5998 !important;
+}
+.f
+{
+    text-transform: lowercase !important;
+}
+.close
+{
+    position: absolute;
+    top:2rem;
+    right: 2rem;
+    font-size: 24px;
+}
+.login_body
+{
+    border:1px dotted black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.Symbol
+{
+    margin: 0px 10px;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.flexbox
+{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .social-divider::before{
+content: "";
+position: absolute;
+top:50%;
+left:0;
+opacity: 0.5;
+margin-top: -.5px;
+border-top:1px solid black;
+width:100%;
+} */
+/* .social-divider
+{
+    padding: 0px 30px;
+    position: relative;
+    text-align: center;
+}
+.social-divider>span
+{
+    background-color: white;
+    line-height: 20px;
+    
+    padding: 0px 30px;
+    position: relative;
+    z-index: 1;
+} */

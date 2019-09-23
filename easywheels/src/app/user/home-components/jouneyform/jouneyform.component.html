@@ -1,0 +1,101 @@
+<div class="shadow container mt-5 p-3">
+    <form>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="source">Originating city:</label>
+                <input type="text" class="form-control" id="source" placeholder="Originating city" required>
+            </div>
+            <div class="form-group col-md-6">
+                    <label for="destination">Destination:</label>
+                    <input type="text" class="form-control" placeholder="Destination" required>
+            </div>
+        </div>
+            <div class="row switch">
+                    <div class="input-field col-sm-3">
+                            <label for="startdate" class="pl-3">Date Of Jorney</label>
+                                <input type="text" class="datepicker" >
+                                <!-- <label class="material-icons p-absolute r-10 datepicker" >date_range</label> -->
+                        </div>
+                    <!-- <div class="input-field col-sm-3">
+                        <label for="Duration" class="pl-3">Travel Duration</label>
+                        <input type="number" id="duration">
+                    </div> -->
+                    <div class="input-field col s3 m3">
+                        <select style="display: inherit" class="border-bottom">
+                            <option disabled selected>Type of vehicle</option>
+                            <option value="Traveller_Bus">Travel van</option>
+                            <option value="sedan">sedan</option>
+                            <option value="Bus">Volvo</option>
+                            <option value="Innova">Innova</option>
+                            <option value="mini">4 Seater</option>
+                        </select>
+                        <p style="color: red">Minimum $500</p>
+                    </div>
+                    <div class="form-group col s3 m3">
+                            <label>Trip Type</label>
+                            <div class="form-control border-0">
+                            <label class="blacky">
+                              <input class="with-gap" name="triptype" type="radio" checked />
+                              <span>OneWay</span>
+                            </label>
+                            <label class="blacky">
+                              <input class="with-gap" name="triptype" type="radio" />
+                              <span>Round trip</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-field col-sm-3 d-none"  >
+                            <label for="return_date"class=" pl-3">Return Date</label>
+                                <input type="text" class="datepicker">
+                                
+                        </div>
+            </div>
+    
+            <div class="row switch" >
+                    <div class="form-group col-md-3">
+                            <label>Need a Driver</label>
+                            <div class="form-control border-0">
+                            <label>
+                          No
+                          <input type="checkbox">
+                          <span class="lever"></span>
+                          Yes
+                            </label>
+                            </div>
+                        </div>
+                    <div class="form-group col-md-3">
+                            <label>Need a Lugguage Rack ?</label>
+                            <div class="form-control border-0">
+                            <label>
+                          No
+                          <input type="checkbox">
+                          <span class="lever"></span>
+                          Yes
+                            </label>
+                            </div>
+                        </div>
+        </div>
+    
+            <div class="row">
+    
+                    <div class="input-field col-sm-3">
+                            <label for="budget"class="pl-3">Fix Your Budjet</label>
+                            <input type="number" min="500" max="500000" id="budget" step="50"  class="form-control">
+                        </div>
+                    <div class="input-field col-sm-6">
+                        <input class="col s12 pl-0" type="range" min="1" id="priceslider" max="50000" step="250" value="50">
+                    </div>
+                    <div class="col-sm-3">
+                            <input type="submit" class="btn m-4 r-10 right" value="Place Bid">
+                    </div>
+                </div>
+    </form>
+    
+    </div>
+    <script>
+        const Calender=document.querySelector('.datepicker');
+    
+        M.Datepicker.init(Calender,{
+                format:'dd/mm/yyyy'
+            });
+    </script>

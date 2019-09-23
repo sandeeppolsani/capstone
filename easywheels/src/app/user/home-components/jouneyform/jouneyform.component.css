@@ -1,0 +1,36 @@
+.container
+{
+    margin: auto;
+}
+.w-50
+{
+    width: 50%;
+}
+.b-w-d-1
+{
+    border: 1px dotted black;
+}
+.m-auto
+{
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=radio]
+{
+    margin: 8px;
+}
+.m-2-5
+{
+    margin: 2px 5px;
+    padding: 5px 10px;
+}
+.f-r
+{
+    float: right;
+}
+.pl-3
+{
+    padding-left: 15px;
+}

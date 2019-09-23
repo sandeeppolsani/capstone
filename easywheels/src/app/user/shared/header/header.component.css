@@ -1,0 +1,26 @@
+.nav-color
+{
+    background-color: rgba(10, 82, 76, 0.829);
+}
+li
+{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+#mobile-demo:target 
+{
+    visibility: visible;
+}
+.fw-400
+{
+    font-size: 30px;
+}
+
+nav ul a:hover{
+    background-color: transparent;
+}
+.link:hover
+{
+    text-decoration: none;
+    color: rgb(60, 14, 71);
+}
